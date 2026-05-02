@@ -1,0 +1,7 @@
+CREATE TABLE workers (
+  id TEXT PRIMARY KEY,
+  hostname TEXT NOT NULL,
+  started_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  last_heartbeat TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  status TEXT NOT NULL DEFAULT 'active'
+);
