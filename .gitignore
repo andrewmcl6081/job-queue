@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+secrets/
+
+# Shell dotfiles
+.bash_profile
+.bashrc
+.profile
+.zprofile
+.zshrc
+.ripgreprc
+.gitconfig
+.gitmodules
+
+# IDE
+.idea/
+.vscode/
+
+# MCP config (machine-local, may contain tokens)
+.mcp.json
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Go build artifacts
+bin/
+*.exe
+coverage.out
